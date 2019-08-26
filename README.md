@@ -24,21 +24,6 @@ Based on: <https://github.com/brodysoft/Android-sqlite-evcore-native-driver-free
 
 ## Quick usage
 
-### Sample C API usage
-
-```c
-jsql_handle_t databaseHandle =
-  jsql_pro_db_open(JSQL_PRO_API_VERSION, ":memory:",
-    JSQL_OPEN_READWRITE | JSQL_OPEN_CREATE | JSQL_OPEN_MEMORY);
-
-assert(!strcmp(
-  jsql_pro_execute(databaseHandle,
-  "[null,\"SELECT UPPER(?) as upperText\",1,\"Alice\",null", 0),
-  "[{\"rows\":[{\"upperText\":\"ALICE\"}]}]"));
-
-jsql_pro_internal_cleanup(databaseHandle);
-```
-
 ### Sample usage on Android
 
 ```Java
