@@ -1,0 +1,41 @@
+<plugin id="json-sqlite-memory-engine-wrapper-pro-wip-free" version="0.0.1-dev">
+  <js-module src="cordova-plugin/www/json-sqlite.js" name="jsonsqlite">
+    <clobbers target="jsonsqlite" />
+  </js-module>
+  <platform name="android">
+    <config-file target="config.xml" parent="/*">
+      <feature name="SP">
+        <param name="android-package" value="io.sqlc.SP" />
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+    <source-file src="ndk/java/io/sqlc/JSQLCOREPRONDKWrapper.java" target-dir="src/io/sqlc"/>
+    <source-file src="cordova-plugin/android/io/sqlc/SP.java" target-dir="src/io/sqlc"/>
+    <!-- NOTE that the following artifact must be built by the following command: make ndkbuild -->
+    <lib-file src="ndk/json-sqlite-engine-procore-wip-ndk.jar" />
+  </platform>
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="SP">
+        <param name="ios-package" value="SP" />
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+    <source-file src="cordova-plugin/ios/SP.m" />
+    <header-file src="json-sqlite-engine-wrapper-pro.h" />
+    <source-file src="json-sqlite-engine-wrapper-pro.c" />
+    <framework src="libsqlite3.dylib" />
+  </platform>
+  <platform name="osx">
+    <config-file target="config.xml" parent="/*">
+      <feature name="SP">
+        <param name="osx-package" value="SP" />
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+    <source-file src="cordova-plugin/ios/SP.m" />
+    <header-file src="json-sqlite-engine-wrapper-pro.h" />
+    <source-file src="json-sqlite-engine-wrapper-pro.c" />
+    <framework src="libsqlite3.dylib" />
+  </platform>
+</plugin>

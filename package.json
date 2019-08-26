@@ -1,0 +1,10 @@
+{
+  "name": "json-sqlite-memory-engine-wrapper-pro-wip-free",
+  "version": "0.0.1-dev",
+  "description": "TBD",
+  "author": "Christopher J. Brody <chris@brody.consulting>",
+  "license": "GPL-3.0 OR COMMERDCIAL",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

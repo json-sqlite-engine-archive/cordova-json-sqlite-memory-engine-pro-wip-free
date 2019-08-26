@@ -1,0 +1,14 @@
+.*.swp
+*.jar
+*.java.orig
+*.swp
+*.zip
+ctest
+gluegentools
+gluegentools-*
+obj
+lib
+libs
+sqlite-amalgamation-*
+sqlite3
+sqlite3.*
