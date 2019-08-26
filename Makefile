@@ -21,6 +21,5 @@ sqlite3:
 clean:
 	make -C ndk clean
 	rm -rf sqlite-amalgamation-*
-	rm -rf sqlite3
 	rm -rf ctest
 

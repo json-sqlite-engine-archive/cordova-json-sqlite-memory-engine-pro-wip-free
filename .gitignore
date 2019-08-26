@@ -1,5 +1,4 @@
 .*.swp
-*.jar
 *.java.orig
 *.swp
 *.zip
@@ -10,5 +9,3 @@ obj
 lib
 libs
 sqlite-amalgamation-*
-sqlite3
-sqlite3.*

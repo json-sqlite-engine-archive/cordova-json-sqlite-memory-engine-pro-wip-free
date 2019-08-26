@@ -20,5 +20,4 @@ clean:
 	rm -rf gluegentools gluegentools-* java/io/sqlc/JSQL*.java.orig
 	rm -rf java/io/sqlc/JSQL*.java.orig
 	rm -rf obj lib libs
-	rm -rf *.jar
 	rm -rf *.zip
