@@ -29,24 +29,6 @@ Based on:
 
 ## Quick usage
 
-### Sample usage on Android
-
-```Java
-System.loadLibrary("json-sqlite-engine-procore-wip-ndk");
-
-final long databaseHandle =
-  JSQLPROCORENDKWrapper.sqlc_pro_db_open(1, ":memory:",
-    JSQLPROCORENDKWrapper.SQLC_OPEN_READWRITE |
-    JSQLPROCORENDKWrapper.SQLC_OPEN_CREATE |
-    JSQLPROCORENDKWrapper.SQLC_OPEN_MEMORY);
-
-final String jsonResult =
-  JSQLPROCORENDKWrapper.sqlc_pro_qc_execute(databaseHandle,
-    "[null,\"SELECT UPPER(?) as upperText\",1,\"Alice\",null", 0),
-
-Log.v("demo", "JSON result: " + jsonResult);
-```
-
 ### Sample usage from Cordova
 
 ```js
