@@ -1,4 +1,4 @@
-<plugin id="json-sqlite-memory-engine-wrapper-pro-wip-free" version="0.0.1-dev">
+<plugin id="cordova-json-sqlite-memory-engine-pro-wip-free" version="0.0.1-dev">
   <js-module src="cordova-plugin/www/json-sqlite.js" name="jsonsqlite">
     <clobbers target="jsonsqlite" />
   </js-module>

@@ -1,4 +1,4 @@
-# json-sqlite-memory-engine-wrapper-pro-wip-free
+# cordova-json-sqlite-memory-engine-pro-wip-free
 
 **Author:** Christopher J. Brody <chris@brody.consulting>
 
@@ -8,7 +8,7 @@ Please contact <sales@brodysoft.com> in case of interest in a commercial license
 
 ## About
 
-A wrapper package that supports SQLite memory database operations with statements, arguments, and results in JSON format.
+A Cordova plugin that supports SQLite memory database operations with statements, arguments, and results in JSON format.
 
 Designed to support Cordova applications on Android, iOS, and macOS ("osx"). May be used to support React Native in the future.
 
