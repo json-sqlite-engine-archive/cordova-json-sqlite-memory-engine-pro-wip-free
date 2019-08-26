@@ -12,7 +12,7 @@ A Cordova plugin that supports SQLite memory database operations with statements
 
 Designed to support Cordova applications on Android, iOS, and macOS ("osx"). May be used to support React Native in the future.
 
-Note that this package does not have any SQLite3 or Android NDK library artifacts committed.
+With the SQLite3 amalgamation and Android NDK library artifacts included and committed.
 
 Mininmum Android version supported: Android 5.0
 
