@@ -16,6 +16,8 @@ Note that this package does not have any SQLite3 or Android NDK library artifact
 
 Mininmum Android version supported: Android 5.0
 
+Note that 64-bit CPU builds for Android are not included at this point.
+
 SQLite VFS implementation(s) supported: memory only
 
 FUTURE TODO: new version that supports "nix" VFS, likely with the application responsible for determining the correct directory path
