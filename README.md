@@ -22,7 +22,10 @@ SQLite VFS implementation(s) supported: memory only
 
 FUTURE TODO: new version that supports "nix" VFS, likely with the application responsible for determining the correct directory path
 
-Based on: <https://github.com/brodysoft/Android-sqlite-evcore-native-driver-free>
+Based on:
+
+* <https://gitlab.showgit.com/brodysoft/json-sqlite-memory-engine-wrapper-pro-wip-free>
+* <https://github.com/brodysoft/Android-sqlite-evcore-native-driver-free>
 
 ## Quick usage
 
